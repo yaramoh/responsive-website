@@ -1,0 +1,57 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Explore</title>
+		<link rel="stylesheet" type="text/css" href="./index.css">
+	</head>
+	<body>
+	 <header>
+	 	<nav class="navigation">
+	 		<h1 class="logo">EXPLORE</h1> 
+	 		<ul class="navigation-links">
+	 			<li class="active"><a href=""></a>home</li>
+	 			<li><a href=""></a>Tours</li>
+	 			<li><a href=""></a>Explore</li>
+	 			<li><a href=""></a>about</li>
+	 			<li class="ctn"><a href=""></a>contact</li>
+	 		</ul>
+         <img src="./img/menu.png" alt="menubtn" class="menu-btn">
+	 	</nav>
+	 	<div class="header-content">
+	 		<h1>Explore the world, Expand the mind</h1>
+	 		<div class="underline"></div>
+	 		<h2> A WONDERFUL GIFT</h2>
+	 		<a href="" class="ctn">learn more</a>
+
+	 	</div>	 		
+	 </header>
+
+	 <section class="events">
+	 	<div class="title">
+	 		<h1>Upcoming Events</h1>
+	 		<div class="underline"></div>
+	 	</div>
+	 	<div class="row">
+	 		<div class="col">
+	 			<img src="./img/img1.png" alt="Explore">
+	 			<h4>everest camp trip</h4>
+	 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	 					consequat.</p>
+	 					<a href="" class="ctn">learn more</a>
+	 		</div>
+	 	</div>
+	 </section>
+
+	 <script type="text/javascript">
+	 	const menubtn = document.querySelector(".menu-btn");
+	 	const navlinks =document.querySelector(".navigation-links");
+
+	 	menubtn.addEventListener("click" , ()=>{
+	 		navlinks.classList.toggle("mobile-menu")
+	 	})
+	 </script>
+	</body>
+	</html>
